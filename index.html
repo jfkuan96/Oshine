@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale 1.0">
 <title>index</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/stylesheet.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
@@ -35,19 +37,19 @@
         <a class="nav-link" href="#">Services</a>
       </li>
 		<li class="nav-item">
-        <a class="nav-link" href="#">Contact us</a>
+        <a class="nav-link" href="contact us.html">Contact us</a>
       </li>
     </ul>
 
 	  <ul class="navbar-nav ml-auto">
 	  <li class="nav-item active">
-		<a class="nav-link" href="#">F</a>  
+		<a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>  
 		</li> 
 		 <li class="nav-item active">
-		<a class="nav-link" href="#">T</a>  
+		<a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>  
 		</li> 
 		  <li class="nav-item active">
-		<a class="nav-link" href="#">I</a>  
+		<a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>  
 		</li>  
 	  
 	  </ul>
@@ -57,12 +59,14 @@
 		</div>
 	</header>
 	
-	<section id="home">
-	<div class="container">
+	<section id="home" class="bg-home">
+	<div class="overlay">
+		<div class="container">
 		<h1> We Build Stunning <span>Websites</span></h1>
 		<p>Oshine comes with 27 unique and stunning demos. We have <br>crafted each and every demo with extensive care and precision.</p>
 		<a href="#" class="btn btn-light">Start Now</a>
 	</div>
+		</div>
 	</section>
 	
 	<section id="designs">
@@ -94,11 +98,36 @@
 		<h5 class="subtitulo">These are some of our more recent and appreciated works by our clients.</h5>
 		<div class="row">
 		<article class="col-md-4 col-sm-12 col-xs-12">
-				<img src="img/iphone-mockup-2.png" class="img-fluid" alt="oshine-mobile">
+			<div class="work">	
+			<img src="img/iphone-mockup-2.png" class="img-fluid" alt="oshine-mobile">
+		</div>
+			
+			<div class="work-fondo">
+			
+			</div>
+			<div class="work-texto">
+				
+			</div>	
 			</article>
-		
+			
 			<article class="col-md-4 col-sm-12 col-xs-12">
-			<img src="img/work-2.jpg" class="img-fluid" alt="man">
+			<div class="work">
+				<img src="img/work-2.jpg" class="img-fluid" alt="man">
+			<div class="work-bottom">
+				<h5>Escape</h5>
+				</div>
+				
+				
+				
+			<div class="work-frame"></div>
+			<div class="work-fondo">
+			
+			</div>
+			<div class="work-texto">
+			<h5>Frock</h5>
+				<h6>Mobile - web</h6>	
+			</div>	
+				</div>
 			</article>
 			
 			<article class="col-md-4 col-sm-12 col-xs-12">
@@ -199,6 +228,15 @@
 	
 <script src="js/jquery.min.js"></script>	
 <script src="js/gmaps.js"></script>	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146944300-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146944300-1');
+</script>
 	
 	
 	
